@@ -11,12 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val clickable: Button = findViewById<Button>(R.id.clickable)
 
-        clickable.setOnClickListener {
-            myFun()
-        }
     }
-
-    private fun myFun(){
-        Log.d("MyTag", "Inside Function")
-    }
+]
 }
