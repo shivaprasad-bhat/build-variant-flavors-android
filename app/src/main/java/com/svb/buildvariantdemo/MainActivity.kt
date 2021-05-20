@@ -12,5 +12,4 @@ class MainActivity : AppCompatActivity() {
         val clickable: Button = findViewById<Button>(R.id.clickable)
 
     }
-]
 }
