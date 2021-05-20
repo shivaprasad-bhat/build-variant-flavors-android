@@ -11,5 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val clickable: Button = findViewById<Button>(R.id.clickable)
 
+        BuildConfig.BASE_URL
+
     }
 }
